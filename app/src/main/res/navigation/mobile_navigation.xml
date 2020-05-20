@@ -12,22 +12,22 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.onlineshoping.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_my_items"
+        android:name="com.example.onlineshoping.ui.myItems.MyItemsFragment"
+        android:label="@string/menu_my_items"
+        tools:layout="@layout/fragment_my_items" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.onlineshoping.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_conversation"
+        android:name="com.example.onlineshoping.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.example.onlineshoping.ui.tools.ToolsFragment"
+        android:id="@+id/nav_login"
+        android:name="com.example.onlineshoping.ui.conversation.ConversationFragment"
         android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_conversation" />
 
     <fragment
         android:id="@+id/nav_share"
@@ -35,9 +35,5 @@
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.example.onlineshoping.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+
 </navigation>

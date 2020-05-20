@@ -1,4 +1,4 @@
-package com.example.onlineshoping.ui.send;
+package com.example.onlineshoping.ui.myItems;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.onlineshoping.R;
 
-public class SendFragment extends Fragment {
+public class MyItemsFragment extends Fragment {
 
-    private SendViewModel sendViewModel;
+    private myItemsViewModel myItemsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        sendViewModel =
-                ViewModelProviders.of(this).get(SendViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_send, container, false);
-        final TextView textView = root.findViewById(R.id.text_send);
-        sendViewModel.getText().observe(this, new Observer<String>() {
+        myItemsViewModel =
+                ViewModelProviders.of(this).get(myItemsViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_my_items, container, false);
+        final TextView textView = root.findViewById(R.id.text_my_items);
+        myItemsViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
