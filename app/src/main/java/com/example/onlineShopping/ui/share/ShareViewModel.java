@@ -1,16 +1,16 @@
-package com.example.onlineshoping.ui.conversation;
+package com.example.onlineShopping.ui.share;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ConversationViewModel extends ViewModel {
+public class ShareViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ConversationViewModel() {
+    public ShareViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is conversation fragment");
+        mText.setValue("This is share fragment");
     }
 
     public LiveData<String> getText() {

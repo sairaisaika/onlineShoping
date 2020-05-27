@@ -7,32 +7,39 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.onlineshoping.ui.home.HomeFragment"
+        android:name="com.example.onlineShopping.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_my_items"
-        android:name="com.example.onlineshoping.ui.myItems.MyItemsFragment"
+        android:name="com.example.onlineShopping.ui.myItems.MyItemsFragment"
         android:label="@string/menu_my_items"
         tools:layout="@layout/fragment_my_items" />
 
     <fragment
         android:id="@+id/nav_conversation"
-        android:name="com.example.onlineshoping.ui.conversation.ConversationFragment"
+        android:name="com.example.onlineShopping.ui.conversation.ConversationFragment"
         android:label="@string/menu_conversation"
         tools:layout="@layout/fragment_conversation" />
 
     <fragment
         android:id="@+id/nav_login"
-        android:name="com.example.onlineshoping.ui.login.LoginFragment"
-        android:label="@string/menu_login"
+        android:name="com.example.onlineShopping.ui.login.LoginFragment"
+        android:label="@string/appbar_login"
         tools:layout="@layout/fragment_login" />
 
 
     <fragment
+        android:id="@+id/nav_register"
+        android:name="com.example.onlineShopping.ui.register.RegisterFragment"
+        android:label="@string/menu_register"
+        tools:layout="@layout/fragment_register" />
+
+
+    <fragment
         android:id="@+id/nav_share"
-        android:name="com.example.onlineshoping.ui.share.ShareFragment"
+        android:name="com.example.onlineShopping.ui.share.ShareFragment"
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 

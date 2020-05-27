@@ -1,4 +1,4 @@
-package com.example.onlineshoping.ui.conversation;
+package com.example.onlineShopping.ui.conversation;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.onlineshoping.R;
+import com.example.onlineShopping.R;
 
 public class ConversationFragment extends Fragment {
 
